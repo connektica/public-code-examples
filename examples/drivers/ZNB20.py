@@ -17,14 +17,14 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
+import types
+import logging
 
-from instrument import Instrument
 import qt
 import visa
-import logging
-import types
-from numpy import pi
 import numpy as np
+from numpy import pi
+from instrument import Instrument
 
 class ZNB20(Instrument):
     '''
