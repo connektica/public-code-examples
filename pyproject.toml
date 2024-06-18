@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "public-code-examples"
+version = "0.1.0"
+description = "code examples for worker tasks and drivers"
+authors = ["alexfa <alexandre.fournier.ahizoune@connektica.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.0.0"
+pydantic = "^2.7.4"
+PyVISA = "^1.14.1"
+PyVISA-py = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
